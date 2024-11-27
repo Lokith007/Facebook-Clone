@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght
+    @100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font
+    -awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdY
+    TDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHU
+    SCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/c451d80140.js" crossorigin="
+    anonymous"></script>
+    <title>Facebook Profile Page</title>
+</head>
+<body>
+            
+    <nav>
+        <div class="nav_left">
+            <a href="./index.html">
+                <img src="LOGO.png" alt="logo" class="logo">
+            </a>
+            <ul>
+                <li><img src="images/notification.png" alt="notification"></li>
+                <li><img src="images/inbox.png" alt="inbox"></li>
+                <li><img src="images/video.png" alt="video"></li>
+            </ul>
+        </div>
+        <div class="nav_right">
+            <div class="search_box">
+                <img src="images/search.png" alt="search">
+                <input type="search" placeholder="Search">
+            </div>
+            <div class="nav_user_icon online_icon" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.jpg" alt="profile">
+            </div>
+        </div>
+
+        <div class="setting_menu">
+            
+            <div id="dark_btn" class="dark_btn_on">
+                <span></span>
+            </div>
+
+            <div class="settings_menu_inner">
+                <div class="user_profile">
+                    <img src="images/profile-pic.jpg" alt="Pro We Are Pro You Now">
+                    <div>
+                        <p>Lokith</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr />
+                <div class="user_profile">
+                    <img src="images/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help Us To improve new design</a>
+                    </div>
+                </div>
+                <hr />
+                <div class="setting_link">
+                    <img src="images/setting.png" class="setting_icon" alt="">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="setting_link">
+                    <img src="images/help.png" class="setting_icon" alt="">
+                    <a href="#">Help & Support <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="setting_link">
+                    <img src="images/display.png" class="setting_icon" alt="">
+                    <a href="#">Display & Accesibility <img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+                <div class="setting_link">
+                    <img src="images/logout.png" class="setting_icon" alt="">
+                    <a href="#">Logout<img src="images/arrow.png" alt="" width="10px"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="profile_container">
+        <img src="images/cover.png" alt="cover" class="cover">
+        <div class="profile_detail">
+            <div class="proflie_detail_left">
+                <div class="profile_row">
+                    <img src="images/profile-pic.jpg" alt="Profile" class="pd_image">
+                    <div>
+                        <h3>Lokith</h3>
+                        <p>120 Friends  - 398 Mutual</p>
+                        <img src="member-1.jpg" alt="">
+                        <img src="member-8.jpg" alt="">
+                        <img src="member-4.jpg" alt="">
+                        <img src="member-9.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="proflie_detail_right">
+                <button type="button"><img src="images/add-friends.png" alt="">Friends</button>
+                <button type="button"><img src="images/message.png" alt="">Message</button>
+                <br />
+                <a href="#"><img src="images/more.png" alt=""></a>
+            </div>
+        </div>
+        <div class="profile_info">
+            <div class="info_col">
+                <div class="profile_intro">
+                    <h3>Intro</h3>
+                    <p class="intro_text">Believe in yourself and you can do unbelievible things. <img src="images/feeling.png" alt=""></p>
+                    <hr>
+                    <ul>
+                        <li> <img src="images/profile-job.png" alt="">School at Edustar</li>
+                        <li> <img src="images/profile-study.png" alt=""> Studied at CIT</li>
+                        <li> <img src="images/profile-home.png" alt=""> Lives in Chennai, India</li>
+                        <li> <img src="images/profile-location.png" alt=""> From Tuticorin, India </li>
+                    </ul>
+                </div>
+                <div class="profile_intro">
+                    <div class="title_box">
+                        <h3>Photos</h3>
+                        <a href="">All Photos</a>
+                    </div>
+                    <div class="photo_box">
+                        <div><img src="photo1.jpg" alt="" height="130" width="200"></div> 
+                        <div><img src="photo2.jpg" alt="" height="130" width="200"></div> 
+                        <div><img src="photo3.jpg" alt="" height="130" width="200"></div> 
+                        <div><img src="photo5.jpeg" alt="" height="130" width="200"></div> 
+                        <div><img src="photo4.jpg" alt="" height="130" width="200"></div> 
+                        <div><img src="photo6.jpg" alt="" height="130" width="200"></div> 
+                        
+                    </div>
+                </div>
+                <div class="profile_intro">
+                    <div class="title_box">
+                        <h3>Friends</h3>
+                        <a href="">All Friends</a>
+                    </div>
+                    <p>120 (10 mutual)</p>
+                    <div class="freinds_box">
+                        <div><img src="member-1.jpg" alt="" height="140" width="200"> <p>Dhanavinth Vijay</p></div> 
+                        <div><img src="member-2.jpg" alt=""  height="140" width="200"> <p>Shiv Sunjey Raaj</p></div> 
+                        <div><img src="member-3.jpg" alt=""  height="140" width="200"> <p>Adithya</p></div> 
+                        <div><img src="member-4.jpg" alt=""  height="140" width="200"> <p>Aseem</p></div> 
+                        <div><img src="member-5.jpg" alt=""  height="140" width="200"> <p>Finojin</p></div> 
+                        <div><img src="member-6.jpg" alt=""  height="140" width="200"> <p>Naresh</p></div> 
+                        <div><img src="member-7.jpg" alt=""  height="140" width="200"> <p>Sachin Raaj</p></div> 
+                        <div><img src="member-8.jpg" alt=""  height="140" width="200"> <p>Abdullah mustafa</p></div> 
+                        <div><img src="member-9.jpg" alt=""  height="140" width="200"> <p>Nithish Raj</p></div> 
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="post_col">
+                <div class="post_container">
+                    <div class="user_profile">
+                        <img src="images/profile-pic.jpg" alt="Pro We Are Pro You Now">
+                        <div>
+                            <p>Lokith</p>
+                            <small>Public <i class="fa fa-caret-down"></i></small>
+                        </div>
+                    </div>
+                    <div class="post_input_container">
+                        
+                        <input id="input_vlaue" placeholder="What's on Your Mind"/>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="add_post_link">
+                            <a href="#"><img src="images/live-video.png" alt="Its Video Time">Live Video</a>
+                            <a href="#"><img src="images/photo.png" alt="Its Video Time">Photo/Video</a>
+                            <a href="#"><img src="images/feeling.png" alt="Its Video Time">Feeling/Activity</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post_container">
+                    <div class="post_row">
+                        <div class="user_profile">
+                            <img src="images/profile-pic.jpg" alt="Pro We Are Pro You Now">
+                            <div>
+                                <p>Lokith</p>
+                                <span>Jan 26 2024 , 12:50 Am</span>
+                            </div>
+                        </div>
+                        <a href=""><i class="fa fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post_text"><b>Subscribe</b> <span style="color:blueviolet"> @Lokith </span><b>Youtube channel to Watch More Videos about Website Devolopment And UI Design</b>
+                        <a href="#">#Lokith</a><a href="#">#YoutubeChannel</a>
+                    </p>
+                    <img src="ui ux.jpg" alt="Feedback" class="post_img">
+                    <div class="post_row">
+                        <div class="activity_icon">
+                            <div><img src="images/like-blue.png" alt="Like Kardo">720</div>
+                            <div><img src="images/comments.png" alt="Like Kardo">65</div>
+                            <div><img src="images/share.png" alt="Like Kardo">130</div>
+                        </div>
+                        <div class="post_profile_icon">
+                            <img src="images/profile-pic.jpg" alt="Profile Pic"> <i class="fa fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post_container">
+                    <div class="post_row">
+                        <div class="user_profile">
+                            <img src="member-1.jpg" alt="Pro We Are Pro You Now">
+                            <div>
+                                <p>Dhanavinth Vijay</p>
+                                <span>Mar 28 2024, 11:09 Am</span>
+                            </div>
+                        </div>
+                        <a href=""><i class="fa fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post_text"><b>Subscribe</b> <span style="color:blueviolet"> @Dhanavinth Vijay </span><b>Youtube channel to Watch More Videos about IPL auction </b>
+                        <a href="#">#Dhanavinth Vijay</a><a href="#">#YoutubeChannel</a>
+                    </p>
+                    <img src="iplauction.webp" alt="Feedback" class="post_img">
+                    <div class="post_row">
+                        <div class="activity_icon">
+                            <div><img src="images/like-blue.png" alt="Like Kardo">290</div>
+                            <div><img src="images/comments.png" alt="Like Kardo">98</div>
+                            <div><img src="images/share.png" alt="Like Kardo">634</div>
+                        </div>
+                        <div class="post_profile_icon">
+                            <img src="images/profile-pic.jpg" alt="Profile Pic"> <i class="fa fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post_container">
+                    <div class="post_row">
+                        <div class="user_profile">
+                            <img src="member-9.jpg" alt="Pro We Are Pro You Now">
+                            <div>
+                                <p>Nithish Raj</p>
+                                <span>Aug 31 2024 , 12:00 Am</span>
+                            </div>
+                        </div>
+                        <a href=""><i class="fa fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post_text"><b>Subscribe </b><span style="color:blueviolet" > @Nithish Raj </span><b>Youtube channel to Watch More about football</b>
+                        <a href="#">#Nithish Raj</a><a href="#">#YoutubeChannel</a>
+                    </p>
+                    <img src="football news.jpg" alt="Feedback" class="post_img">
+                    <div class="post_row">
+                        <div class="activity_icon">
+                            <div><img src="images/like-blue.png" alt="Like Kardo">650</div>
+                            <div><img src="images/comments.png" alt="Like Kardo">54</div>
+                            <div><img src="images/share.png" alt="Like Kardo">290</div>
+                        </div>
+                        <div class="post_profile_icon">
+                            <img src="images/profile-pic.jpg" alt="Profile Pic"> <i class="fa fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post_container">
+                    <div class="post_row">
+                        <div class="user_profile">
+                            <img src="member-3.jpg" alt="Pro We Are Pro You Now">
+                            <div>
+                                <p>Adithya</p>
+                                <span>July 19 2024 , 12:00 Am</span>
+                            </div>
+                        </div>
+                        <a href=""><i class="fa fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post_text"><b>Subscribe</b> <span style="color:blueviolet" > @Adithya </span><b>Youtube channel to Watch More Cricket</b>
+                        <a href="#">#Adithya</a><a href="#">#YoutubeChannel</a>
+                    </p>
+                    <img src="cricket news.jpg" alt="Feedback" class="post_img">
+                    <div class="post_row">
+                        <div class="activity_icon">
+                            <div><img src="images/like-blue.png" alt="Like Kardo">480</div>
+                            <div><img src="images/comments.png" alt="Like Kardo">26</div>
+                            <div><img src="images/share.png" alt="Like Kardo">430</div>
+                        </div>
+                        <div class="post_profile_icon">
+                            <img src="images/profile-pic.jpg" alt="Profile Pic"> <i class="fa fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post_container">
+                    <div class="post_row">
+                        <div class="user_profile">
+                            <img src="member-8.jpg" alt="Pro We Are Pro You Now">
+                            <div>
+                                <p>Abdullah Mustafa</p>
+                                <span>Aug 16 2024 , 12:00 Am</span>
+                            </div>
+                        </div>
+                        <a href=""><i class="fa fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post_text"><b>Subscribe</b> <span style="color:blueviolet"> @Abdullah Mustafa </span><b>Youtube channel to Watch More about Online Gaming </b>
+                        <a href="#">#Abdullah Mustafa</a><a href="#">#YoutubeChannel</a>
+                    </p>
+                    <img src="online gaming.jpeg" alt="Feedback" class="post_img">
+                    <div class="post_row">
+                        <div class="activity_icon">
+                            <div><img src="images/like.png" alt="Like Kardo">880</div>
+                            <div><img src="images/comments.png" alt="Like Kardo">56</div>
+                            <div><img src="images/share.png" alt="Like Kardo">510</div>
+                        </div>
+                        <div class="post_profile_icon">
+                            <img src="images/profile-pic.jpg" alt="Profile Pic"> <i class="fa fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post_container">
+                    <div class="post_row">
+                        <div class="user_profile">
+                            <img src="member-6.jpg" alt="Pro We Are Pro You Now">
+                            <div>
+                                <p>Naresh</p>
+                                <span>Aug 13 2024 , 1:00 Am</span>
+                            </div>
+                        </div>
+                        <a href=""><i class="fa fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post_text"><b>Subscribe</b> <span style="color:blueviolet"> @Naresh </span><b>Youtube channel to Watch More about Cinema </b>
+                        <a href="#">#Naresh</a><a href="#">#YoutubeChannel</a>
+                    </p>
+                    <img src="cinema.jpg" alt="Feedback" class="post_img">
+                    <div class="post_row">
+                        <div class="activity_icon">
+                            <div><img src="images/like.png" alt="Like Kardo">500</div>
+                            <div><img src="images/comments.png" alt="Like Kardo">36</div>
+                            <div><img src="images/share.png" alt="Like Kardo">410</div>
+                        </div>
+                        <div class="post_profile_icon">
+                            <img src="images/profile-pic.jpg" alt="Profile Pic"> <i class="fa fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
